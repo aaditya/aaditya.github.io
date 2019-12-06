@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-family: 'Nunito', sans-serif;
+}
+
+.masthead {
+    display: block;
+    width: 50vw;
+    height: 40vh;
+    margin:30vh auto 0 auto;
+}
+
+.masthead .mast-title {
+    text-align: center;
+    font-size: 72px;
+}
+
+.masthead .mast-description {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.masthead .mast-wrapper {
+    position: relative;
+    top: 15%;
+    left: 0px;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.masthead .mast-wrapper a {
+    display: inline-block;
+    width: 75px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 42px;
+    text-decoration: none;
+    margin-top: 2%;
+    color: #ccc;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transform: 0.5s ease;
+}
+
+.masthead .mast-wrapper a:hover {
+    color: #333;
+}
+
+.masthead .mast-wrapper a.l-instagram:hover {
+    color: #D92E7F;
+}
+
+.masthead .mast-wrapper .l-twitter:hover {
+    color: #00acee;
+}
+
+.masthead .mast-wrapper .l-facebook:hover {
+    color: #3b5998;
+}
+
+.masthead .mast-wrapper .l-linkedin:hover {
+    color: #0e76a8;
+}
+
+.masthead .mast-wrapper .l-youtube:hover {
+    color: #c4302b;
+}
+
+.masthead .mast-wrapper .l-soundcloud:hover {
+    color: #ff7700;
+}
