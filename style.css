@@ -69,6 +69,10 @@ body {
     color: #c4302b;
 }
 
+.masthead .mast-wrapper .l-github:hover {
+    color: #3E2C00;
+}
+
 .masthead .mast-wrapper .l-soundcloud:hover {
     color: #ff7700;
 }
