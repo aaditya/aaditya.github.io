@@ -14,8 +14,8 @@ body {
 
 .masthead .mast-title {
     text-align: center;
-    font-size: 72px;
-    height: 72px;
+    font-size: 68px;
+    height: 68px;
 }
 
 .masthead .mast-description {
@@ -39,7 +39,7 @@ body {
     font-size: 42px;
     text-decoration: none;
     margin-top: 2%;
-    color: #ccc;
+    color: #eee;
     transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
     -moz-transition: 0.5s ease;
