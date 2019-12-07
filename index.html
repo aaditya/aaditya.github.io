@@ -5,30 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
     <title>Hey there !</title>
 </head>
 
 <body>
     <div class="masthead">
-        <div class="mast-title">
-            Hi !
-        </div>
+        <div class="mast-title"></div>
         <div class="mast-description">
-            I'm Aaditya. Web Developer by day, Musician by evening, Grammar Nazi by night.
+            I'm Aaditya. I make stuff. Probably.
         </div>
         <div class="mast-wrapper">
-            <a href="https://www.instagram.com/aaditya.chakravarty/" class="l-instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/TheDarkEngineer" class="l-twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/aadityachakravarty" class="l-facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-            <a href="https://in.linkedin.com/in/aadityachakravarty" class="l-linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/c/aadityachakravarty" class="l-youtube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-            <a href="https://soundcloud.com/theharmonicproject" class="l-soundcloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-soundcloud"></i></a>
-            <a href="https://github.com/aadityachakravarty" class="l-github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            <a href="mailto:hi@aaditya.dev" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope-open-text"></i></a>
+            <a href="https://www.instagram.com/aaditya.chakravarty/" class="l-instagram" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TheDarkEngineer" class="l-twitter" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/aadityachakravarty" class="l-facebook" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="https://in.linkedin.com/in/aadityachakravarty" class="l-linkedin" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/c/aadityachakravarty" class="l-youtube" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            <a href="https://soundcloud.com/theharmonicproject" class="l-soundcloud" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://github.com/aadityachakravarty" class="l-github" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="mailto:hi@aaditya.dev" target="_blank" rel="noopener noreferrer"><i
+                    class="fas fa-envelope-open-text"></i></a>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/cd80fab0ba.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('.mast-title', {
+            strings: ["प्रणाम !", "ಶುಭಾಶಯಗಳು !", "Bienvenue !", "Hola !", "Hi !"],
+            typeSpeed: 75,
+            backSpeed: 75
+        });
+    </script>
 </body>
 
 </html>
