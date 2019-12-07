@@ -27,9 +27,10 @@ body {
     position: relative;
     top: 15%;
     left: 0px;
-    width: 100%;
+    width: 90%;
     height: 25%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .masthead .mast-wrapper a {
@@ -75,4 +76,8 @@ body {
 
 .masthead .mast-wrapper .l-soundcloud:hover {
     color: #ff7700;
+}
+
+.masthead .mast-wrapper .l-medium:hover {
+    color: #00ab6c;
 }
