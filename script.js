@@ -19,9 +19,6 @@ var colorIndices = [0, 1, 2, 3];
 var gradientSpeed = 0.002;
 
 function updateGradient() {
-
-    if ($ === undefined) return;
-
     var c0_0 = colors[colorIndices[0]];
     var c0_1 = colors[colorIndices[1]];
     var c1_0 = colors[colorIndices[2]];
@@ -38,11 +35,9 @@ function updateGradient() {
     var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
     var color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
 
-    $('body').css({
-        background: "-webkit-gradient(linear, left top, right top, from(" + color1 + "), to(" + color2 + "))"
-    }).css({
-        background: "-moz-linear-gradient(left, " + color1 + " 0%, " + color2 + " 100%)"
-    });
+    let selector = document.querySelector("body");
+    selector.style.background = "-webkit-gradient(linear, left top, right top, from(" + color1 + "), to(" + color2 + "))";
+    selector.style.background = "-moz-linear-gradient(left, " + color1 + " 0%, " + color2 + " 100%)";
 
     step += gradientSpeed;
     if (step >= 1) {
