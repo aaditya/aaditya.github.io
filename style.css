@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Nunito', sans-serif;
     color: #eee;
+    background: #16161D;
 }
 
 .masthead {
@@ -80,4 +81,8 @@ body {
 
 .masthead .mast-wrapper .l-medium:hover {
     color: #00ab6c;
+}
+
+.masthead .mast-wrapper .l-spotify:hover {
+    color: #1DB954;
 }
