@@ -8,15 +8,15 @@ body {
 
 .masthead {
     display: block;
-    width: 50vw;
     height: 40vh;
     margin: 30vh auto 0 auto;
 }
 
 .masthead .mast-title {
     text-align: center;
-    font-size: 68px;
-    height: 68px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 64px;
+    height: 64px;
 }
 
 .masthead .mast-description {
